@@ -28,6 +28,7 @@ class AuthenticatedSessionController extends Controller
         $request->authenticate();
 
         $request->session()->regenerate();
+        notify()->success('Đăng nhập thành công');
 
         return redirect()->intended(RouteServiceProvider::HOME);
     }

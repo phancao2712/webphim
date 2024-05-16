@@ -1,116 +1,129 @@
-<aside class="sidebar-left">
-    <nav class="navbar navbar-inverse">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                data-target=".collapse" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <h1><a class="navbar-brand" href="index.html"><span class="fa fa-area-chart"></span> Glance<span
-                        class="dashboard_text">Design dashboard</span></a></h1>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="sidebar-menu">
-                <li class="header">MAIN NAVIGATION</li>
-                <li class="treeview">
-                    <a href="index.html">
-                        <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-                    </a>
-                </li>
-                <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-laptop"></i>
-                        <span>Components</span>
-                        <i class="fa fa-angle-left pull-right"></i>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="grids.html"><i class="fa fa-angle-right"></i> Grids</a></li>
-                        <li><a href="media.html"><i class="fa fa-angle-right"></i> Media Css</a></li>
-                    </ul>
-                </li>
-                <li class="treeview">
-                    <a href="charts.html">
-                        <i class="fa fa-pie-chart"></i>
-                        <span>Charts</span>
-                        <span class="label label-primary pull-right">new</span>
-                    </a>
-                </li>
-                <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-laptop"></i>
-                        <span>UI Elements</span>
-                        <i class="fa fa-angle-left pull-right"></i>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="general.html"><i class="fa fa-angle-right"></i> General</a></li>
-                        <li><a href="icons.html"><i class="fa fa-angle-right"></i> Icons</a></li>
-                        <li><a href="buttons.html"><i class="fa fa-angle-right"></i> Buttons</a></li>
-                        <li><a href="typography.html"><i class="fa fa-angle-right"></i> Typography</a></li>
-                    </ul>
-                </li>
+<nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+        <form role="search" class="navbar-form-custom" action="search_results.html">
+            <div class="form-group">
+                <input type="text" placeholder="Search for something..." class="form-control" name="top-search"
+                    id="top-search">
+            </div>
+        </form>
+    </div>
+    <ul class="nav navbar-top-links navbar-right">
+        <li>
+            <span class="m-r-sm text-muted welcome-message">Welcome to INSPINIA+ Admin Theme.</span>
+        </li>
+        <li class="dropdown">
+            <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                <i class="fa fa-envelope"></i> <span class="label label-warning">16</span>
+            </a>
+            <ul class="dropdown-menu dropdown-messages">
                 <li>
-                    <a href="widgets.html">
-                        <i class="fa fa-th"></i> <span>Widgets</span>
-                        <small class="label pull-right label-info">08</small>
-                    </a>
+                    <div class="dropdown-messages-box">
+                        <a href="profile.html" class="pull-left">
+                            <img alt="image" class="img-circle" src="img/a7.jpg">
+                        </a>
+                        <div class="media-body">
+                            <small class="pull-right">46h ago</small>
+                            <strong>Mike Loreipsum</strong> started following <strong>Monica
+                                Smith</strong>. <br>
+                            <small class="text-muted">3 days ago at 7:58 pm - 10.06.2014</small>
+                        </div>
+                    </div>
                 </li>
-                <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-edit"></i> <span>Forms</span>
-                        <i class="fa fa-angle-left pull-right"></i>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="forms.html"><i class="fa fa-angle-right"></i> General Forms</a></li>
-                        <li><a href="validation.html"><i class="fa fa-angle-right"></i> Form Validations</a>
-                        </li>
-                    </ul>
+                <li class="divider"></li>
+                <li>
+                    <div class="dropdown-messages-box">
+                        <a href="profile.html" class="pull-left">
+                            <img alt="image" class="img-circle" src="img/a4.jpg">
+                        </a>
+                        <div class="media-body ">
+                            <small class="pull-right text-navy">5h ago</small>
+                            <strong>Chris Johnatan Overtunk</strong> started following <strong>Monica
+                                Smith</strong>. <br>
+                            <small class="text-muted">Yesterday 1:21 pm - 11.06.2014</small>
+                        </div>
+                    </div>
                 </li>
-                <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-table"></i> <span>Tables</span>
-                        <i class="fa fa-angle-left pull-right"></i>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="tables.html"><i class="fa fa-angle-right"></i> Simple tables</a></li>
-                    </ul>
+                <li class="divider"></li>
+                <li>
+                    <div class="dropdown-messages-box">
+                        <a href="profile.html" class="pull-left">
+                            <img alt="image" class="img-circle" src="img/profile.jpg">
+                        </a>
+                        <div class="media-body ">
+                            <small class="pull-right">23h ago</small>
+                            <strong>Monica Smith</strong> love <strong>Kim Smith</strong>. <br>
+                            <small class="text-muted">2 days ago at 2:30 am - 11.06.2014</small>
+                        </div>
+                    </div>
                 </li>
-                <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-envelope"></i> <span>Mailbox</span>
-                        <i class="fa fa-angle-left pull-right"></i><small
-                            class="label pull-right label-info1">08</small><span
-                            class="label label-primary1 pull-right">02</span></a>
-                    <ul class="treeview-menu">
-                        <li><a href="inbox.html"><i class="fa fa-angle-right"></i> Mail Inbox</a></li>
-                        <li><a href="compose.html"><i class="fa fa-angle-right"></i> Compose Mail </a>
-                        </li>
-                    </ul>
+                <li class="divider"></li>
+                <li>
+                    <div class="text-center link-block">
+                        <a href="mailbox.html">
+                            <i class="fa fa-envelope"></i> <strong>Read All Messages</strong>
+                        </a>
+                    </div>
                 </li>
-                <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-folder"></i> <span>Examples</span>
-                        <i class="fa fa-angle-left pull-right"></i>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="login.html"><i class="fa fa-angle-right"></i> Login</a></li>
-                        <li><a href="signup.html"><i class="fa fa-angle-right"></i> Register</a></li>
-                        <li><a href="404.html"><i class="fa fa-angle-right"></i> 404 Error</a></li>
-                        <li><a href="500.html"><i class="fa fa-angle-right"></i> 500 Error</a></li>
-                        <li><a href="blank-page.html"><i class="fa fa-angle-right"></i> Blank Page</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="header">LABELS</li>
-                <li><a href="#"><i class="fa fa-angle-right text-red"></i>
-                        <span>Important</span></a></li>
-                <li><a href="#"><i class="fa fa-angle-right text-yellow"></i>
-                        <span>Warning</span></a></li>
-                <li><a href="#"><i class="fa fa-angle-right text-aqua"></i>
-                        <span>Information</span></a></li>
             </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </nav>
-</aside>
+        </li>
+        <li class="dropdown">
+            <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                <i class="fa fa-bell"></i> <span class="label label-primary">8</span>
+            </a>
+            <ul class="dropdown-menu dropdown-alerts">
+                <li>
+                    <a href="mailbox.html">
+                        <div>
+                            <i class="fa fa-envelope fa-fw"></i> You have 16 messages
+                            <span class="pull-right text-muted small">4 minutes ago</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                    <a href="profile.html">
+                        <div>
+                            <i class="fa fa-twitter fa-fw"></i> 3 New Followers
+                            <span class="pull-right text-muted small">12 minutes ago</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                    <a href="grid_options.html">
+                        <div>
+                            <i class="fa fa-upload fa-fw"></i> Server Rebooted
+                            <span class="pull-right text-muted small">4 minutes ago</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                    <div class="text-center link-block">
+                        <a href="notifications.html">
+                            <strong>See All Alerts</strong>
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <form method="POST" action="{{ route('logout') }}">
+                @csrf
+                <a href="{{ route('logout') }}"
+                    onclick="event.preventDefault();
+                this.closest('form').submit();">
+                    <i class="fa fa-sign-out"></i> Log out
+                </a>
+            </form>
+        </li>
+        <li>
+            <a class="right-sidebar-toggle">
+                <i class="fa fa-tasks"></i>
+            </a>
+        </li>
+    </ul>
+
+</nav>

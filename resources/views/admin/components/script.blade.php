@@ -1,33 +1,36 @@
+<!-- Mainly scripts -->
+<script src="{{ asset('admin/js/jquery-3.1.1.min.js') }}"></script>
+<script src="{{ asset('admin/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('admin/js/plugins/metisMenu/jquery.metisMenu.js') }}"></script>
+<script src="{{ asset('admin/js/plugins/slimscroll/jquery.slimscroll.min.js') }}"></script>
 
-<script src='{{ asset('admin/js/SidebarNav.min.js') }}' type='text/javascript'></script>
-<script>
-    $('.sidebar-menu').SidebarNav()
-</script>
-<script src="{{ asset('admin/js/classie.js') }}"></script>
-<script>
-    var menuLeft = document.getElementById('cbp-spmenu-s1'),
-        showLeftPush = document.getElementById('showLeftPush'),
-        body = document.body;
+<!-- Flot -->
+<script src="{{ asset('admin/js/plugins/flot/jquery.flot.js') }}"></script>
+<script src="{{ asset('admin/js/plugins/flot/jquery.flot.tooltip.min.js') }}"></script>
+<script src="{{ asset('admin/js/plugins/flot/jquery.flot.spline.js') }}"></script>
+<script src="{{ asset('admin/js/plugins/flot/jquery.flot.resize.js') }}"></script>
+<script src="{{ asset('admin/js/plugins/flot/jquery.flot.pie.js') }}"></script>
 
-    showLeftPush.onclick = function() {
-        classie.toggle(this, 'active');
-        classie.toggle(body, 'cbp-spmenu-push-toright');
-        classie.toggle(menuLeft, 'cbp-spmenu-open');
-        disableOther('showLeftPush');
-    };
+<!-- Peity -->
+<script src="{{ asset('admin/js/plugins/peity/jquery.peity.min.js') }}"></script>
+<script src="{{ asset('admin/js/demo/peity-demo.js') }}"></script>
 
-    function disableOther(button) {
-        if (button !== 'showLeftPush') {
-            classie.toggle(showLeftPush, 'disabled');
-        }
-    }
-</script>
-<!-- //Classie --><!-- //for toggle left push menu script -->
+<!-- Custom and plugin javascript -->
+<script src="{{ asset('admin/js/inspinia.js') }}"></script>
+<script src="{{ asset('admin/js/plugins/pace/pace.min.js') }}"></script>
 
-<!--scrolling js-->
-<script src="{{ asset('admin/js/jquery.nicescroll.js') }}"></script>
-<script src="{{ asset('admin/js/scripts.js') }}"></script>
-<!--//scrolling js-->
+<!-- jQuery UI -->
+<script src="{{ asset('admin/js/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="{{ asset('admin/js/bootstrap.js') }}"></script>
+<!-- GITTER -->
+<script src="{{ asset('admin/js/plugins/gritter/jquery.gritter.min.js') }}"></script>
+
+<!-- Sparkline -->
+<script src="{{ asset('admin/js/plugins/sparkline/jquery.sparkline.min.js') }}"></script>
+
+<!-- Sparkline demo data  -->
+<script src="{{ asset('admin/js/demo/sparkline-demo.js') }}"></script>
+
+<!-- ChartJS-->
+<script src="{{ asset('admin/js/plugins/chartJs/Chart.min.js') }}"></script>
+

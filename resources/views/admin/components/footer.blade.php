@@ -1,4 +1,8 @@
 <div class="footer">
-    <p>&copy; 2018 Glance Design Dashboard. All Rights Reserved | Design by <a href="https://w3layouts.com/"
-            target="_blank">w3layouts</a></p>
+    <div class="pull-right">
+        10GB of <strong>250GB</strong> Free.
+    </div>
+    <div>
+        <strong>Copyright</strong> Example Company &copy; 2014-2017
+    </div>
 </div>

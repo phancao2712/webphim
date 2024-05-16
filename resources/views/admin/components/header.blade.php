@@ -165,7 +165,7 @@
                         <div class="profile_img">
                             <span class="prfil-img"><img src="images/2.jpg" alt=""> </span>
                             <div class="user-name">
-                                <p>Admin Name</p>
+                                <p>{{ auth()->user()->name }}</p>
                                 <span>Administrator</span>
                             </div>
                             <i class="fa fa-angle-down lnr"></i>

@@ -30,7 +30,8 @@
 
 <!-- Sparkline demo data  -->
 <script src="{{ asset('admin/js/demo/sparkline-demo.js') }}"></script>
-
-<!-- ChartJS-->
-<script src="{{ asset('admin/js/plugins/chartJs/Chart.min.js') }}"></script>
-
+<script src="{{ asset('standalone/switchery.js') }}"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.11.0/dist/sweetalert2.all.min.js
+"></script>
+<script src="{{ asset('admin/js/custom.js') }}"></script>

@@ -27,6 +27,7 @@ Route::group([
 ], function () {
     Route::get('/dashboard', [AdminDashboardController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
     Route::resource('categories', CategoryController::class);
+    Route::post('categories/{id}', [CategoryController::class, 'changeStatus'])->name('categories.changeStatus');
 });
 
 Route::middleware('auth')->group(function () {
